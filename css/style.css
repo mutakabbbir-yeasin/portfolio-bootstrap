@@ -80,7 +80,8 @@
 
 /*================= ABOUT ME PAGE START ===============  */
 .about-image {
-    height: 300px;
+    width: 50%;
+    height: 50%;
 }
 
 .page-banner-parent {
