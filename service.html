@@ -11,11 +11,10 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
-
+ 
 <body>
   <!-- NAVBAR START -->
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg bg-info">
+  <nav class="navbar navbar-expand-lg bg-info">
       <div class="container-fluid">
         <a class="navbar-brand ms-5" href="index.html">Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,7 +24,7 @@
         <div class="collapse navbar-collapse " id="navbarNav">
           <ul class="navbar-nav ms-auto me-5 pages-design">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Me</a>
@@ -42,24 +41,21 @@
           </ul>
         </div>
       </div>
-    </nav>
-  </div>
+  </nav>
 
   <!-- SERVICE BANNER SECTION  -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12 ">
+  <section>
+    <div class="container-fluid p-0 m-0">
         <div class="page-banner-parent position-relative">
           <img src="images/about/about.jpg" class="slider-height w-100" alt="image">
           <p class="page-title position-absolute top-50 start-50 translate-middle">Service</p>
         </div>
-        
-      </div>
-    </div>
   </div>
+  </section>
 
   <!-- SECRVICE SECTION -->
-  <div class="container mt-5">
+  <section class="mt-5">
+    <div class="container">
     <h2 class="text-center "><span class=" border-bottom border-3 border-info ">Services</span></h2>
     <div class="row mt-3">
       <div class="col-lg-4 col-md-6 col-sm-12">
@@ -196,9 +192,11 @@
       </div>
     </div>
   </div>
+  </section>
 
   <!-- CLIENT SECTION -->
-  <div class="container mt-5">
+  <section class="mt-5">
+    <div class="container">
     <h2 class="text-center "><span class=" border-bottom border-3 border-info ">Our Clients</span></h2>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -293,9 +291,11 @@
       </div>
     </div>
   </div>
+  </section>
 
   <!-- FAQ SECTION -->
-  <div class="container mt-5">
+  <section class="mt-5">
+    <div class="container">
     <h2 class="text-center "><span class=" border-bottom border-3 border-info ">FAQ</span></h2>
     <div class="row mt-4">
       <div class="col-md-1"></div>
@@ -323,7 +323,7 @@
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  bWhat is HTML and why is it important?
+                  What is HTML and why is it important?
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -385,10 +385,11 @@
 
     </div>
   </div>
+  </section>
 
   <!-- FOOTER START -->
-  <div class="container-fluid">
-    <footer class="mt-5 bg-info ">
+  <footer class="mt-5 bg-info ">
+      <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 pt-5 ">
           <div class="footer-page">
@@ -413,34 +414,36 @@
           </div>
         </div>
         <div class="col-lg-4 p-5">
-          <h3 class="footer-subheading">Services</h2>
-            <ul class="navbar-nav footer-ul-design">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="portfolio.html">Web Application</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Web Development</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Web Design</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">SEO Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">WordPress Customization</a>
-              </li>
-            </ul>
+          <div class="footer-page">
+            <h3 class="footer-subheading">Services</h2>
+              <ul class="navbar-nav footer-ul-design">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="portfolio.html">Web Application</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Web Development</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Web Design</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">SEO Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">WordPress Customization</a>
+                </li>
+              </ul>
+          </div>
         </div>
         <div class="col-lg-4 p-5">
           <h3 class="mb-4">Current Date & Time</h2>
-            <p id="dateTime" class="fw-bold bg-white d-inline p-2 rounded ms-3"></p>
+          <p id="dateTime" class="fw-bold bg-white d-inline p-2 rounded ms-3"></p>
         </div>
         <!-- <div class="col-lg-1"></div> -->
 
       </div>
-    </footer>
-  </div>
+      </div>
+  </footer>
 
   <!-- Bootstrap JS CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
