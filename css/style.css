@@ -84,9 +84,6 @@
     height: 50%;
 }
 
-.page-banner-parent {
-    position: relative;
-}
 
 .page-banner-parent::after {
     content: "";
@@ -100,9 +97,6 @@
 }
 
 .page-title {
-    position: absolute;
-    top: 40%;
-    left: 42%;
     font-size: 40px;
     font-weight: bold;
     color: aliceblue;
