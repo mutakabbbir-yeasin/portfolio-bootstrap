@@ -1,0 +1,156 @@
+.pages-design li {
+    transition: .4s ease-in-out;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.pages-design li:hover {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.pages-design li a.active:hover,
+.pages-design li a:hover {
+    color: rgb(24, 101, 243);
+}
+
+.slider-height {
+    height: 350px;
+}
+
+.about-text {
+    text-align: justify;
+}
+
+.service-icons {
+    font-size: 70px;
+    padding: 10px;
+}
+
+.service-card {
+    transition: .5s ease;
+}
+
+.service-card:hover {
+    background-color: #0DCAF0;
+}
+
+.client-card {
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s ease-in;
+}
+
+.client-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.client-card:hover {
+    background-color: #0DCAF0;
+}
+ 
+.icon-color {
+    font-size: 20px;
+    margin: 0 4px;
+    color: rgb(248, 150, 2);
+}
+.footer-page {
+    padding-left: 100px;
+}
+
+.footer-subheading {
+    padding-left: 20px;
+}
+
+.footer-ul-design li {
+    padding-left: 20px;
+    border-radius: 5px;
+    width: 250px;
+    transition: .1s;
+}
+
+.footer-ul-design li:hover {
+    background-color: aliceblue;
+    width: 250px;
+    padding-left: 20px;
+}
+
+/*================= ABOUT ME PAGE START ===============  */
+.about-image {
+    height: 300px;
+}
+
+.page-banner-parent {
+    position: relative;
+}
+
+.page-banner-parent::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.page-title {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    z-index: 2;
+}
+
+.progress-bar-title {
+    margin-bottom: 0px;
+}
+
+.html-skill {
+    width: 90%;
+}
+
+.css-skill {
+    width: 70%;
+}
+
+.bootstrap-skill {
+    width: 80%;
+}
+
+.js-skill {
+    width: 70%;
+}
+
+.react-skill {
+    width: 70%;
+}
+
+.wordpress-skill {
+    width: 75%;
+}
+
+.php-skill {
+    width: 40%;
+}
+
+.laravel-skill {
+    width: 30%;
+}
+
+/*================= ABOUT ME PAGE END ===============  */
+
+.table {
+    border: 1px solid ;
+    margin: 0 auto;
+}
+
+.table th, td {
+    border: 1px solid #0DCAF0;
+}
